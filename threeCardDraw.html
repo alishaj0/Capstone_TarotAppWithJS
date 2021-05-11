@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose Tarot 3 Card Draw</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./styles/threeCardDraw.css">
+    <script src="./scripts/threeCardDraw.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.2/lodash.min.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Rose Tarot</h1>
+        <p>by: alishaj0</p>
+        <a href="./index.html">Back To Main</a>
+    </div>
+    <div class="container-flex">
+        <div class="jumbotron">
+          <h1>Three Card Tarot Reading</h1>
+          <br>
+          <p id="blurb" class="blurb">
+            The three card reading is one of the simplest tarot card spreads.<br> The card to the left represents events in your past that may have led to your current position. <br> The tarot card in the center represents your outlook on your
+            current situation. <br>The card furthest to the right suggests a possible outcome if no action is taken to change the current course. <br>The future is not set in stone &amp; can be changed through action.
+            <br>
+            <br> Focus on your question &amp; click the button below when you are ready.
+          </p>
+          <div class="container-flex">
+            <div class="row">
+              <div class="col-md-3">
+              </div>
+              <div class="col-md-3"><button type="button" class="btn btn-lg" id="pastPresentFuture" onclick="pastPresentFuture()">My Reading</button></div>
+              <div class="col-md-3">
+                <p>Percentage of Reversals</p>
+                <input class="slider" type="range" min="0" max="50" value="0" onchange="showValue(this.value)" />
+                <span id="range">0</span>%
+              </div>
+              <div class="col-md-3">
+              </div>
+            </div>
+          </div>
+    
+          <div class="container-flex">
+            <div class="row">
+              <div class="col-md-4">
+                <center>
+                  <hr>
+                  <h2>Past</h2>
+                  <div id="img-1"></div>
+                  <div id="info-1"></div>
+                </center>
+              </div>
+              <div class="col-sm-4">
+                <center>
+                  <hr>
+                  <h2>Present</h2>
+                  <div id="img-2"></div>
+                  <div id="info-2"></div>
+                </center>
+              </div>
+              <div class="col-sm-4">
+                <center>
+                  <hr>
+                  <h2>Future</h2>
+                  <div id="img-3"></div>
+                  <div id="info-3"></div>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+
+</body>
+</html>
