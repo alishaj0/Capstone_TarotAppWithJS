@@ -1,9 +1,6 @@
-let deck = {};
-let rank = "";
-let suit = "";
-let deckArr = [];
 
-const cardBack = 'https://www.wopc.co.uk/images/subjects/tarot/rider-waite/pam-roses-lilies-back.jpg';
+// const cardBack = 'https://www.wopc.co.uk/images/subjects/tarot/rider-waite/pam-roses-lilies-back.jpg';
+const cardBack = './img/tarotBackMoon.jpg';
 
 const container = document.querySelector('#container');
 const imgDiv = document.createElement('div');
@@ -22,6 +19,8 @@ drawOneBtn.onclick = async function getRandomCard() {
         const randomCardUrl = "https://tarot.howlcode.com/api/v1/spreads/random_card";
         const randomCard = await axios.get(randomCardUrl);
         img.innerHTML = '';
+        const blurb = document.querySelector(`.blurb`);
+        blurb.innerHTML = '';
         const cardInfo = document.querySelector('.Card-Info');
         const cardName = document.createElement(`h2`);
         cardInfo.prepend(cardName);

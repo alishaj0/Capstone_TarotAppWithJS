@@ -4,9 +4,7 @@ let rank = "";
 let suit = "";
 let deckArr = [];
 
-
-
-const cardBack = "<img class='img-thumbnail' src='https://www.wopc.co.uk/images/subjects/tarot/rider-waite/pam-roses-lilies-back.jpg'>";
+const cardBack = "<img class='img-thumbnail' src='./img/tarotBackMoon.jpg'>";
 
 const meanings = {
     upright: [
@@ -783,6 +781,7 @@ function createDeck() {
 
 //gets Rider Waite Card Image i = id from createDeck()
 function riderWaite(i) {
+    
     let img = $("<img class='img-thumbnail' src='http://www.free-tarot-reading.net/img/cards/rider-waite/" +
       deck[i].name + ".jpg' alt=" + deck[i].name + "/>");
     return img;

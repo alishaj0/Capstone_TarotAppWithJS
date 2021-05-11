@@ -1,21 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 body {
     font-family: 'Alex Brush', cursive;
     background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(56,68,82,1) 100%);
-    /* background-image: url('../../../Capstone/tarotCards.jpeg'); */
-    padding-left: 10%;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(11,29,51,1) 100%);
     padding-right: 10%;
+    padding-left: 10%;
 }
 
 .navbar {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    color: white;
+    /* color: white; */
+    background: white;
     width: 100%;
 }
 
@@ -37,7 +36,8 @@ body {
     align-self: flex-end;
     justify-self: flex-end;
     font-size: 25px;
-    color: white;
+    /* color: white; */
+    color: black;
     text-decoration: none;
 }
 
@@ -71,7 +71,8 @@ body {
 }
 
 .btn {
-    background-color: rgb(177, 139, 169);
+    background:rgb(200, 170, 200);
+    /* background-color: rgb(177, 139, 169); */
     color: #fff;
 }
   
@@ -83,8 +84,3 @@ body {
 }
   
   
-  /*#card-img td {
-    top: 0;
-    max-width: 230px;
-    height: 100%
-  }*/
