@@ -13,7 +13,7 @@
   font-family: 'Alex Brush', cursive;
   width: 100%;
   height: 150vh;
-  background-image: url('/TarotPage/img/witchy.jpg');
+  background-image: url('../img/witchy.jpg');
   background-repeat: no-repeat;
   /* background-size: cover; */
   /* opacity: 0.9; */
