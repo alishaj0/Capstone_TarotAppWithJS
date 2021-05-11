@@ -92,7 +92,8 @@ body {
     border-radius: 10%;
     text-decoration: none;
     background-color: white;
-    color: grey;    
+    color: grey;  
+    cursor: pointer;  
 }
 
 .Card-Info {
