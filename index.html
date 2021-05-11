@@ -11,7 +11,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
-    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
     <title>Rose Tarot</title>
@@ -26,37 +32,56 @@
             <br />
             <br />
             <div class="App-Name-Focus">
-                <p>Tarot cards are used for divination and can <br>give insight into your past, present, and future.
+                <p>Tarot cards are used for divination <strong>fun</strong> and can <br>give insight into your past, present, and future.
                     <br> <br> Take a deep cleansing breathe <strong> focus </strong> on your question<br> and
-                    <em>click</em> to view a single or three card spread!</p>
+                    <em>click below</em> to view a single or three card spread!
+                </p>
                 </p>
             </div>
             <br />
         </div>
         <div class="App-Draw">
-            <div class="App-Draw-One">
+            <!-- Card -->
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top img-thumbnail" src="./img/moonCards.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Single Card Draw</h5>
+                    <p class="card-text"></p>
+                    <a href="./oneCardDraw.html" class="btn btn-primary">Enter</a>
+                </div>
+            </div>
+
+            <!-- <div class="App-Draw-One">
                 <p> Single Card </p>
                 <button id="drawOneBtn">
                     <a href="./oneCardDraw.html">Enter</a>
                 </button>
                 <br>
-            </div>
+            </div> -->
 
 
             <div class="App-Draw-Two">
-                <p>Three Card Draw</p>
-                <!-- <p>Past, Present, Future</p> -->
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-thumbnail" src="img/moonCards.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Three Card Draw</h5>
+                        <p class="card-text"></p>
+                        <a href="./threeCardDraw.html" class="btn btn-primary">Enter</a>
+                    </div>
+                </div>
+
+                <!-- <p>Three Card Draw</p>
                 <button id="drawThreeBtn">
                     <a href="./threeCardDraw.html">Enter</a>
                 </button>
-                <br>
+                <br> -->
             </div>
 
         </div>
         <div class="contact">
             <p>Contact Me!</p>
             <a href="https://www.instagram.com/alishaj0/"><i class="fab fa-instagram"></i></a>
-            
+
             <a href="https://www.linkedin.com/in/alisha-bolin-7240a6207/"><i class="fab fa-linkedin-in"></i></a>
         </div>
     </div>
