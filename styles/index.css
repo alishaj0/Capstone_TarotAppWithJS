@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: 'Alex Brush', cursive;
+  width: 100%;
+  height: 150vh;
+  background-image: url('/TarotPage/img/witchy.jpg');
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* opacity: 0.9; */
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* .App-Name::before {
+  content: "";
+  background-image: url('/TarotPage/img/witchy.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.80;
+} */
+
+.App-Name {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+.App-Name h1 {
+  margin-top: 80px;
+  font-size: 300px;
+  padding-bottom: 30px;
+  line-height: 0.7;
+  position: relative;
+}
+
+.App-Name h5 {
+  font-size: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  left: 200px;
+  bottom: 50px;
+}
+
+.App-Name-Focus  {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-top: -80px;
+  color: white;
+  line-height: 1;
+  z-index: 4;
+}
+
+.App-Name-Focus strong{
+  font-family: 'Alex Brush', cursive;
+  font-size: 50px;
+  /* font-weight: lighter; */
+  color: white;
+}
+
+.App-Draw {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  align-items: center;
+  color: white;
+  z-index: 4;
+  /* position: relative; */
+}
+
+.App-Draw p {
+  font-family: 'Raleway', sans-serif;  
+  font-size: 30px;
+}
+
+.App-Draw button {
+  width: 100px;
+  height: 40px;
+  font-size: 25px;
+  border-radius: 10%;
+  text-decoration: none;
+  color: black;
+}
+
+.App-Draw-One, .App-Draw-Two  {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 40px;
+  margin-left: 70px;
+}
+
+#drawOneBtn > a {
+  color:black;
+  font-weight: bolder;
+ }
+
+#drawOneBtn a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#drawThreeBtn > a {
+  color: black;
+  font-weight: bolder;
+}
+
+#drawThreeBtn a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contact {
+  margin-top: 60px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+
