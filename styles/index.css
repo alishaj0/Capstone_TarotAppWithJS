@@ -13,6 +13,8 @@
   font-family: 'Alex Brush', cursive;
   width: 100%;
   height: 150vh;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(56,68,82,1) 100%);
   background-image: url('../img/witchy.jpg');
   background-repeat: no-repeat;
   /* background-size: cover; */
