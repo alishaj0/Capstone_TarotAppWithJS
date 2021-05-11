@@ -78,19 +78,21 @@ body {
 
 .Card h1 {
     padding-top: 30px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     font-size: 50px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .Card h1 > p {
-    margin: 0 400px;
+    margin: 0 300px;
     font-size: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .drawOneBtn {
     width: 100px;
-    height: 40px;
+    height: 60px;
     font-size: 20px;
     border-radius: 10%;
     text-decoration: none;
