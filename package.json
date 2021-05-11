@@ -1,0 +1,23 @@
+{
+  "name": "TarotPage",
+  "version": "1.0.0",
+  "description": "Tarot API  _URL: https://tarot.howlcode.com/api/v1_ _URL: https://localhost:3000/api/v1_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alishaj0/Capstone_TarotAppWithJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alishaj0/Capstone_TarotAppWithJS/issues"
+  },
+  "homepage": "https://github.com/alishaj0/Capstone_TarotAppWithJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
