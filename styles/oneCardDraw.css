@@ -39,7 +39,7 @@ body {
 
 .navbar > h1 {
     font-size: 60px;
-    margin-left: 160px;
+    margin-left: 100px;
     margin-top: 30px;
     position: relative;
     line-height: 0.7;
@@ -48,7 +48,7 @@ body {
 .navbar > p {
     font-size: 25px;
     position: absolute;
-    left: 260px;
+    left: 180px;
     padding-top: 0;
     margin-top: 0;
 }
@@ -59,7 +59,7 @@ body {
     justify-self:flex-end;
     position: relative;
     top: 0px;
-    right: 180px;
+    right: 160px;
     cursor: pointer;
     font-size: 25px;
     font-family: 'Alex Brush', cursive;
@@ -84,7 +84,7 @@ body {
 }
 
 .Card h1 > p {
-    margin: 0 300px;
+    margin: 0 0;
     font-size: 20px;
     padding-bottom: 0;
     margin-bottom: 0;
