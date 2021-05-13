@@ -1,0 +1,113 @@
+
+
+@media (max-width: 800px) {
+    .App-Name {
+        margin-bottom: 0;
+    }
+    .App-Name h1 {
+        font-size: 100px;
+        text-align: center;
+    }
+    .App-Name h5 {
+        margin-right: auto;
+        font-size: 15px;
+    }
+    .App-Name-Focus {
+        font-size: 15px;
+        text-align: center;
+    }
+    .App-Name-Focus strong {
+        font-size: 25px;
+    }
+    .App-Draw {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .card {
+        height: 250px;
+        width: auto;
+        background: none;
+        color: white;
+        align-content: center;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .card-img-top {
+        width: 175px;
+        height: 150px;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .contact {
+        font-size: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 800px) {
+    .App-Name {
+        margin-bottom: 0;
+    }
+    .App-Name h1 {
+        font-size: 175px;
+        text-align: center;
+    }
+    .App-Name-Focus {
+        font-size: 20px;
+        text-align: center;
+    }
+    .App-Draw {
+        display: flex;
+        flex-direction: row;
+        width: 600px;
+    }
+    .card {
+        background: none;
+        color: white;
+        align-content: center;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .contact {
+        font-size: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 900px) {
+    .App-Name {
+        margin-bottom: 0;
+    }
+    .App-Name h1 {
+        font-size: 200px;
+        text-align: center;
+    }
+    .App-Draw {
+        display: flex;
+        flex-direction: row;
+        width: 600px;
+    }
+    .card {
+        background: none;
+        color: white;
+        align-content: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .App-Name h1 {
+        font-size: 275px;
+        text-align: center;
+    }
+}

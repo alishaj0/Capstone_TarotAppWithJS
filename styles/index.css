@@ -11,7 +11,7 @@
 .App {
   font-family: 'Alex Brush', cursive;
   width: 100%;
-  height: 150vh;
+  height: 150%;
   background: rgb(238,174,202);
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(56,68,82,1) 100%);
   /* background-image: url('../img/witchy.jpg'); */
@@ -68,7 +68,7 @@
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
   margin-left: 0px;
   margin-top: -80px;
   color: white;
@@ -86,56 +86,11 @@
 .App-Draw {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;  
+  justify-content: space-evenly;  
   align-items: center;
   color: white;
   z-index: 4;
-  /* position: relative; */
 }
-
-/* .App-Draw p {
-  font-family: 'Raleway', sans-serif;  
-  font-size: 30px;
-} */
-
-/* .App-Draw button {
-  width: 100px;
-  height: 40px;
-  font-size: 25px;
-  border-radius: 10%;
-  text-decoration: none;
-  color: black;
-} */
-
-
-.App-Draw-One, .App-Draw-Two  {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center; */
-  margin-right: 40px;
-  margin-left: 70px;
-}
-
-/* #drawOneBtn > a {
-  color:black;
-  font-weight: bolder;
- }
-
-#drawOneBtn a:hover {
-  cursor: pointer;
-  text-decoration: none;
-}
-
-#drawThreeBtn > a {
-  color: black;
-  font-weight: bolder;
-}
-
-#drawThreeBtn a:hover {
-  cursor: pointer;
-  text-decoration: none;
-} */
 
 .contact {
   font-family: 'Raleway', sans-serif;  
@@ -152,8 +107,8 @@
 
 /* Bootstrap Card */
 .card {
-  background-color: white;
-  color: black;
+  background-color: none;
+  color: white;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -171,8 +126,6 @@
   font-family: 'Raleway', sans-serif; 
   margin-left: 33%; 
   margin-bottom: 20px;
+  align-content: center;
 }
-
-
-
 

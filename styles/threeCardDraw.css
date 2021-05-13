@@ -22,28 +22,28 @@ body {
     font-size: 60px;
     line-height: 0.7;
     position: relative;
+    margin-left: 20px;
 } 
 
 .navbar > p {
     font-size: 25px;
     position: absolute;
-    left: 140px;
-    top: 60px;
+    left: 15%;
+    top: 50px;
     padding-bottom: 0;
 }
 
 .navbar > a {
     align-self: flex-end;
-    justify-self: flex-end;
     font-size: 25px;
-    /* color: white; */
     color: black;
     text-decoration: none;
+    margin-right: 20px;
 }
 
 .slider {
     max-width: 80%;
-    text-align: center;  
+    margin: 0 auto;
 }
   
 .container {
@@ -62,7 +62,7 @@ body {
     font-family: 'Alex Brush', cursive;
 }
 
-.blurb {
+.jumbotron p {
     text-align: center;
     font-size: 20px;  
     margin-left: 2%;

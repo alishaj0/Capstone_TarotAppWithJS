@@ -1,0 +1,32 @@
+
+@media (max-width: 600px) {
+    .navbar h1 {
+        font-size: 40px;
+        margin-left: 0;
+    }
+    .navbar > p {
+        font-size: 15px;
+        left: 25%;
+    }
+    .navbar > a {
+        font-size: 20px;
+        margin-right: 0;
+    }
+    .slider {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .jumbotron p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 600px) {
+    .btn-lg {
+        font-size: 15px;
+    }
+    .slider {
+        max-width: 50%;
+    }
+}
+

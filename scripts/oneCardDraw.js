@@ -755,6 +755,7 @@ drawOneBtn.onclick = function getRandomCard() {
     img.innerHTML = '';
     const blurb = document.querySelector(`.blurb`);
     blurb.innerHTML = '';
+    const drawOneBtn = document.querySelector('.drawOneBtn').remove();
     const cardInfo = document.querySelector('.Card-Info');
     const cardName = document.createElement(`h2`);
     cardInfo.prepend(cardName);

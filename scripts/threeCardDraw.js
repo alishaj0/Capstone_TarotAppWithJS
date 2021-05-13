@@ -805,7 +805,7 @@ function pastPresentFuture() {
     createDeck();
     $("img").remove();
     $("#blurb").remove();
-    $("#pastPresentFuture").html("Another Reading?");
+    $("#pastPresentFuture").html("Read Again?");
     let percentRevs = $("#range").html();
 
     for (let b = 1; b <= 3; b++) {

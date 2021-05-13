@@ -25,7 +25,7 @@ body {
     display: flex;
     flex-direction: column; 
     justify-content:center; 
-    align-items:center;  
+    align-items:center; 
 }
 
 .navbar {
@@ -33,13 +33,12 @@ body {
     font-weight: lighter;
     align-self: flex-start;
     position: relative;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 20px;
 }
 
 .navbar > h1 {
     font-size: 60px;
-    margin-left: 100px;
+    margin-left: 0px;
     margin-top: 30px;
     position: relative;
     line-height: 0.7;
@@ -48,7 +47,7 @@ body {
 .navbar > p {
     font-size: 25px;
     position: absolute;
-    left: 180px;
+    left: 50%;
     padding-top: 0;
     margin-top: 0;
 }
@@ -56,10 +55,9 @@ body {
 .Container > a {
     text-decoration: none;
     align-self: flex-end;
-    justify-self:flex-end;
     position: relative;
     top: 0px;
-    right: 160px;
+    right: 20px;
     cursor: pointer;
     font-size: 25px;
     font-family: 'Alex Brush', cursive;
@@ -69,16 +67,16 @@ body {
 
 .Card {
     font-family: 'Raleway', sans-serif;
-    text-align:center;
+    text-align: center;
     color: white;
     height: 25%;
-    width: 100%;
+    width: 80%;
     position: relative;
+    background-color: none;
 }
 
 .Card h1 {
-    padding-top: 30px;
-    /* padding-bottom: 20px; */
+    padding-top: 40px;
     font-size: 50px;
     /* margin-bottom: 30px; */
 }
@@ -96,8 +94,9 @@ body {
     font-size: 20px;
     border-radius: 10%;
     text-decoration: none;
-    background-color: white;
-    color: grey;  
+    background: white;
+    /* background-color: rgb(200, 170, 200); */
+    color: black;  
     cursor: pointer;  
 }
 
@@ -106,6 +105,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .Card-Info h2 {
@@ -144,16 +144,16 @@ body {
 .Card-Summary p {
     font-size: 20px;
     text-align: center;
-    width: 900px;
+    width: auto;
+    margin: 20px;
 }
 
-button > a{
-    width: 100px;
-    height: 40px;
-    font-size: 20px;
+button > a {
     border-radius: 10%;
     text-decoration: none;
     background-color: white;
-    color: grey; 
+    color: black; 
     cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
