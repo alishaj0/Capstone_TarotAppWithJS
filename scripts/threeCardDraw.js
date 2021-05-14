@@ -809,7 +809,6 @@ function pastPresentFuture() {
     let percentRevs = $("#range").html();
 
     for (let b = 1; b <= 3; b++) {
-        //$("#rev-" + b).html("");
         const random = randGen();
         const randomInvert = Math.floor((Math.random() * 101));
         
