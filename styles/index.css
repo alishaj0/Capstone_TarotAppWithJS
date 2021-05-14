@@ -90,6 +90,7 @@
   align-items: center;
   color: white;
   z-index: 4;
+  width: 100%;
 }
 
 .contact {
@@ -107,13 +108,14 @@
 
 /* Bootstrap Card */
 .card {
-  background-color: none;
+  background-color: white;
   color: white;
   height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 10px;
   
 }
 
@@ -130,4 +132,6 @@
   margin-bottom: 20px;
   align-content: center;
 }
-
+.card-img-top {
+  padding: 10px 10px;
+}
