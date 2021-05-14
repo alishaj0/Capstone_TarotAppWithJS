@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+/* numbers */
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+
+body {
+    font-family: 'Alex Brush', cursive;
+    /* background: rgb(238,174,202); */
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(11,29,51,1) 100%);
+    padding-right: 10%;
+    padding-left: 10%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* color: white; */
+    background: none;
+    width: 100%;
+    color: white;
+}
+
+.navbar > h1 {
+    font-size: 60px;
+    line-height: 0.7;
+    position: relative;
+    margin-left: 20px;
+} 
+
+.navbar > p {
+    font-size: 25px;
+    position: absolute;
+    left: 15%;
+    top: 50px;
+    padding-bottom: 0;
+}
+
+.navbar > a {
+    align-self: flex-end;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+
+.slider {
+    max-width: 80%;
+    margin: 0 auto;
+}
+  
+  
+.jumbotron {
+    background: none;
+    font-family: 'Raleway', cursive;
+    margin-top: 1%;
+    text-align: center; 
+    margin-bottom: 0px;
+    color: white;
+}
+
+.jumbotron h1 {
+    font-family: 'Alex Brush', cursive;
+}
+
+.jumbotron p {
+    text-align: center;
+    font-size: 20px;  
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 20px;
+}
+
+.btn {
+    background:rgb(200, 170, 200);
+    /* background-color: rgb(177, 139, 169); */
+    color: #fff;
+}
+  
+.invert {
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.img-thumbnail {
+    width: 225px;
+    height: 402px;
+}
+  
+/* Cards */
+.cards {
+    position: relative;
+    color: white;
+}
+.card5 {
+    position: relative;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.card3 {
+    position: relative;
+    right: 40rem;
+}
+
+.card1 {
+    position: relative;
+    bottom: 47rem;
+    padding-bottom: 20px;
+}
+
+.card2 {
+    position: relative;
+    bottom: 90rem;
+    transform: rotate(305deg); 
+    opacity: 0.7;
+}
+
+.card4 {
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 142rem;
+    left: 40rem;
+}
+
+.card6 {
+    position: relative;
+    bottom: 140rem;
+    padding-bottom: 20px;
+}
+
+.bottomRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 140rem;
+}
+
+.meanings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 130rem;
+    background-color:transparent;
+    border: 2px solid white;
+    width: 600px;
+    margin: 10px auto;
+    padding: 20px 10px;
+    color: black;
+
+}
+
+h2 {
+    font-family: 'Zilla Slab', serif;
+}
+
+.one, .five, .nine {
+    background-color: rgb(115, 76, 133);
+    padding-bottom: 20px;
+    width: 550px;
+}
+.two, .six, .ten {
+    background-color: rgb(104, 162, 182);
+    padding-bottom: 20px;
+    width: 550px;
+}
+.three, .seven {
+    background-color: mediumpurple;
+    padding-bottom: 20px;
+    width: 550px;
+}
+.four, .eight {
+    background-color: grey;
+    padding-bottom: 20px;
+    width: 550px;
+}

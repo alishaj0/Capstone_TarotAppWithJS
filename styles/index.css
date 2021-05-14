@@ -114,6 +114,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .card-title {
@@ -121,6 +122,7 @@
   font-family: 'Raleway', sans-serif;  
   text-align: center;
 }
+
 
 .btn {
   font-family: 'Raleway', sans-serif; 

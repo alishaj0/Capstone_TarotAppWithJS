@@ -1,0 +1,122 @@
+@media (max-width: 1100px) {
+    .navbar > h1 {
+        font-size: 40px;
+        margin-left: 0px;
+    }
+
+    .navbar > a {
+        margin-right: 0px;
+    }
+    .btn {
+        background:rgb(200, 170, 200);
+        /* background-color: rgb(177, 139, 169); */
+        color: #fff;
+        height: auto;
+        width: auto;
+        padding: 10px;
+    }
+    .img-thumbnail {
+        width: 100px;
+        height: 150px;
+    }
+    .jumbotron p {
+        text-align: center;
+        font-size: 15px;  
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-bottom: 20px;
+    }
+    /* Cards */
+    .cards {
+        position: relative;
+        
+    }
+    .card5 {
+        position: relative;
+        bottom: 5rem;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .card3 {
+        position: relative;
+        right: 15rem;
+        bottom: 8rem;
+    }
+    
+    .card1 {
+        position: relative;
+        bottom: 28rem;
+        padding-bottom: 20px;
+    }
+    
+    .card2 {
+        position: relative;
+        bottom: 47rem;
+        transform: rotate(305deg); 
+        opacity: 0.7;
+    }
+    
+    .card4 {
+        padding-bottom: 20px;
+        position: relative;
+        bottom: 70.5rem;
+        left: 15rem;
+    }
+    
+    .card6 {
+        position: relative;
+        bottom: 73rem;
+        padding-bottom: 20px;
+    }
+    
+    .bottomRow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        bottom: 75rem;
+    }
+    
+    .meanings {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 75rem;
+        background-color:transparent;
+        border: 2px solid white;
+        width: auto;
+        margin: 10px auto;
+        padding: 20px 10px;
+        color: black;
+    
+    }
+    
+    h2 {
+        font-family: 'Zilla Slab', serif;
+        font-size: 20px;
+    }
+    
+    .one, .five, .nine {
+        background-color: rgb(115, 76, 133);
+        padding-bottom: 20px;
+        width: 300px;
+    }
+    .two, .six, .ten {
+        background-color: rgb(104, 162, 182);
+        padding-bottom: 20px;
+        width: 300px;
+    }
+    .three, .seven {
+        background-color: mediumpurple;
+        padding-bottom: 20px;
+        width: 300px;
+    }
+    .four, .eight {
+        background-color: grey;
+        padding-bottom: 20px;
+        width: 300px;
+    }
+}

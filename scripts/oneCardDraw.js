@@ -1,14 +1,14 @@
-class TarotDeck {
-    constructor(name, summary, full_meaning, image, upright, reversed, card_index) {
-        this.name = name,
-            this.summary = summary,
-            this.full_meaning = full_meaning,
-            this.image = image,
-            this.upright = upright,
-            this.reversed = reversed,
-            this.card_index = card_index 
-    }
-}
+// class TarotDeck {
+//     constructor(name, summary, full_meaning, image, upright, reversed, card_index) {
+//         this.name = name,
+//             this.summary = summary,
+//             this.full_meaning = full_meaning,
+//             this.image = image,
+//             this.upright = upright,
+//             this.reversed = reversed,
+//             this.card_index = card_index 
+//     }
+// }
 
 
 const tarotDeck = [
